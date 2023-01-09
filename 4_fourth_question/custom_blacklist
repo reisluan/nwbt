@@ -1,0 +1,13 @@
+# TESTE BLUE TEAM - (Luan Reis)
+
+# Cmnd - Permissoes especificas
+Cmnd_Alias DISABLE_UFW = /sbin/ufw disable
+
+# User Root - Possui todas as permissoes
+root ALL=(ALL:ALL) ALL
+
+# Grupo Sudo - Possui todas as permissões 
+%sudo ALL=(ALL:ALL) ALL, DISABLE_UFW
+
+# User1 - Possui permissões limitadas
+user1 ALL=!DISABLE_UFW

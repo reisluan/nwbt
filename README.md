@@ -1,14 +1,24 @@
 # PROJETO NWBT
 
-Este projeto tem como objetivo apresentar resultados práticos
-relacionados ao teste aplicado para seleção de um profissional
-de segurança da informação Blue Team.
+Este projeto tem como objetivo resolver desafios
+práticos para concorrer a uma vaga em Blue Team.
 
-## Primeira questão - Requisitos
+## Primeira questão - Requisitos Linux
 
-* Instalar python (versão 3) no Linux:
+* Para instalar o Python 3, digite em um terminal:
 ```
-sudo apt-get install python3
+$ sudo apt-get install python3
+```
+* Para instalar o gerenciador de pacotes pip, digite em um terminal:
+```
+$ sudo apt-get install python3-pip
+```
+* Para instalar as dependências:
+```
+$ pip3 install requests
+```
+```
+pip3 install json
 ```
 * Instalar repositório python:
 ```
